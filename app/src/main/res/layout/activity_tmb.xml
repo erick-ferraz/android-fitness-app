@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".activities.TmbActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="17dp"
+            android:justificationMode="inter_word"
+            android:text="@string/tmb_description" />
+
+        <EditText
+            android:id="@+id/edit_tmb_weight"
+            android:hint="@string/weight"
+            android:maxLength="3"
+            style="@style/EditTextFormat" />
+
+        <EditText
+            android:id="@+id/edit_tmb_height"
+            android:hint="@string/height"
+            android:maxLength="3"
+            style="@style/EditTextFormat" />
+
+        <EditText
+            android:id="@+id/edit_tmb_age"
+            android:hint="@string/age"
+            android:maxLength="3"
+            style="@style/EditTextFormat" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AutotextViewForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_box_tmb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/tmb_btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:text="@string/calc" />
+    </LinearLayout>
+</ScrollView>

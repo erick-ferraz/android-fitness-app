@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tmb_box_options">
+        <item>Pouco ou nenhum exercício</item>
+        <item>Exercício leve. 1 a 3 vezes na semana</item>
+        <item>Exercício moderado. 3 a 4 vezes na semana</item>
+        <item>Exercício intenso. 5 vezes na semana ou mais</item>
+    </string-array>
+</resources>

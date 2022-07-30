@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AppFitness</string>
+    <string name="imc_label">IMC</string>
+    <string name="tmb_label">TMB</string>
+    <string name="imc_description">IMC é a sigla para Índice de Massa Corporal que serve para
+        avaliar o peso do indivíduo em relação à sua altura e assim indicar se está dentro do peso
+        ideal, acima ou abaixo do peso desejado.\n\nPreencha os campos de peso e altura para
+        descobrir o seu IMC</string>
+    <string name="tmb_description">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter
+        as funções do organismo em repouso, como os batimentos cardíacos, a pressão arterial, a respiração
+        e a manutenção da temperatura corporal.</string>
+    <string name="weight">Peso (kg)</string>
+    <string name="height">Altura (cm)</string>
+    <string name="calc">Calcular</string>
+    <string name="field_message">Todos os campos devem ser maiores que zero</string>
+
+    <string name="imc_severely_low_weight">Severamente abaixo do peso</string>
+    <string name="imc_very_low_weight">Muito abaixo do peso</string>
+    <string name="imc_low_weight">Abaixo do peso</string>
+    <string name="normal">Normal</string>
+    <string name="imc_high_weight">Acima do peso</string>
+    <string name="imc_very_high_weight">Moderadamente obeso</string>
+    <string name="imc_severely_high_weight">Severamente obeso</string>
+    <string name="imc_extreme_weight">Extremamente obeso</string>
+
+    <string name="imc_response">Seu IMC é: %1$.2f</string>
+    <string name="tmb_response">Seu TMB é: %1$.2f</string>
+    <string name="calc_list_response">Resultado: %1$.2f \nData do registro: %2$s</string>
+    <string name="save">Salvar</string>
+    <string name="saved">Registro salvo com sucesso</string>
+    <string name="consult">Consultar</string>
+    <string name="search">Consultar</string>
+    <string name="age">Idade</string>
+    <string name="delete_success">Registro deletado com sucesso</string>
+    <string name="delete_message">Deseja realmente excluir este registro?</string>
+    <string name="main_title">Menu de funcionalidades</string>
+</resources>
